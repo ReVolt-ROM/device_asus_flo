@@ -19,12 +19,6 @@
 #
 # Everything in this directory will become public
 
-# Kernel inline build
-TARGET_KERNEL_SOURCE := kernel/google/msm
-TARGET_KERNEL_CONFIG := flo_defconfig
-TARGET_VARIANT_CONFIG := flo_defconfig
-TARGET_SELINUX_CONFIG := flo_defconfig
-
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
 # we do this little trick to fall back to the hdpi version
